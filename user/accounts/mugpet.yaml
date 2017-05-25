@@ -1,0 +1,11 @@
+email: mugpet@gmail.com
+fullname: 'Mugo Petersen'
+title: Sensei
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$pgwjRa6V.6J45.kD.4EhLOKUnqWBBZ7U6jMNglpxhljFOb3fWPD/W

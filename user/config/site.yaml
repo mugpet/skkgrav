@@ -1,0 +1,47 @@
+title: Skovbo Karate Klub
+author:
+  name: Mugo Petersen
+metadata:
+    description: ''
+
+# TopBar
+logo:
+  icon: "user/assets/SKK LOGO SMALL 120x120.png" 
+  text: 
+  url: "" 
+  logoUrl: "user/assets/SKK LOGO SMALL 120x120.png" 
+  width: 50px
+
+# User Panel
+userlinks:
+    - text: 
+      url: 
+    - text: 
+      url: 
+
+# Header customization
+header:
+  title: Skovbo Karate Klub
+  description: Okinawa Goju-ryu Karate Do<br>Medlem af Jundokan Danmark/Norge (O.G.K.K)
+#  buttons:
+#    - text: "Some Button"
+#      url: "http://tympanus.net/codrops/?p=19439"
+#      icon: "sketch"
+
+# Footer customization
+footer:
+  links:
+    - text: 
+      url: 
+    - text: 
+      url: 
+
+#Social Count
+socialcount:
+    url: 
+    facebook_url: "https://www.facebook.com/SkovboKarate/"
+    twitter_url: 
+    linkedin_url: 
+
+#Copyright
+copyright: 

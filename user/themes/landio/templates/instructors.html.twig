@@ -1,0 +1,141 @@
+{% extends 'partials/base.html.twig' %}
+{#{% block header %}{% endblock %}#}
+
+{% block header %}{% include 'partials/header_small.html.twig' %}{% endblock %}
+
+
+
+{% block content %}
+
+<style rel="text/css">
+
+body {
+  background: #fff;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  /*background:  red;*/
+   width: 170px;
+   margin-left: 10px;
+   background: #f6f6f6;
+   padding: 1px;
+}
+.card-block {
+  /*background:  green;*/
+  width: 170px;
+     padding: 10px;
+
+  height: 120px;
+}
+
+.card-image-wrapper {
+  overflow: hidden;
+  height: 130px;
+}
+
+.card img {
+  width: 170px;
+  margin-top : -24px;
+}
+.card-title {
+  font-size: 0.9em;
+  color: #aa0000;
+}
+.card-text {
+  font-size: 0.8em;  
+  margin: 0;
+}
+
+</style>
+
+
+<section class="section-text">
+  <div class="container">
+
+
+<h1>Instruktører</h1>
+<div class="card-wrapper">
+{% for inst in page.header.teaminstructors %}
+           
+  <div class="card">
+  <div class="card-image-wrapper">
+    {% if inst.avatar %}
+    <img class="card-img-top" src="{{inst.avatar}}" alt="Card image cap">
+    {% endif %}
+</div>
+    <div class="card-block">
+      <h1 class="card-title">{{ inst.name }}</h1>
+      <p class="card-text">{{inst.title}}</p>
+      <p class="card-text">{{inst.description}}</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  
+ {% endfor %}
+</div>
+
+<br/>
+<h1>Sortbælter</h1>
+<div class="card-wrapper">
+ {% for inst in page.header.blackbelts %}
+           
+  <div class="card">
+    <div class="card-image-wrapper">
+    {% if inst.avatar %}
+    <img class="card-img-top" src="{{inst.avatar}}" alt="Card image cap">
+    {% endif %}
+    </div>
+    <div class="card-block">
+      <h1 class="card-title">{{ inst.name }}</h1>
+      <p class="card-text">{{inst.title}}</p>
+      <p class="card-text">{{inst.description}}</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+
+ {% endfor %}
+  </div>
+<br/>
+<h1>Sempais og Instruktørassistenter</h1>
+<div class="card-wrapper">
+{% for inst in page.header.brownbelts %}
+           
+  <div class="card">
+  <div class="card-image-wrapper">
+    {% if inst.avatar %}
+    <img class="card-img-top" src="{{inst.avatar}}" alt="Card image cap">
+    {% endif %}
+    </div>
+    <div class="card-block">
+      <h1 class="card-title">{{ inst.name }}</h1>
+      <p class="card-text">{{inst.title}}</p>
+      <p class="card-text">{{inst.description}}</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+
+ {% endfor %}
+
+</div>
+
+
+
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-xl-10 col-xl-offset-1">
+        {{ page.content }}
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+{% endblock %}
+
+{#{% block footer %}{% endblock %}#}
