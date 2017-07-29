@@ -57,6 +57,11 @@ blackbelts:
         description: Matayoshi Kobudo
         avatar: "https://sites.google.com/site/jundokandanmark/blackbelts/IMG_0396.jpg"
 
+    -   name: Tea Røgilds-Heinsøe
+        title: 2. Dan, Sempai
+        description: 
+        avatar: "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/12316404_805627369583117_5006442379565322120_n.png?oh=66d30f94535ba4e3c648533345e0cbd6&oe=590388ED"
+
     -   name: Henrik Jensen
         title: 1. Dan, Sempai
         description: 
@@ -77,11 +82,6 @@ blackbelts:
         description: 
         avatar: "https://lh3.googleusercontent.com/XM0hcFc9LfzY3IUeMONkrCiTBtN9Aky7ooFAjiQNCtkIXBOyMsbtwwfj6pWA1cB9wB4deL4=w70"
 
-    -   name: Tea Røgilds-Heinsøe
-        title: 1. Dan, Sempai
-        description: 
-        avatar: "https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/12316404_805627369583117_5006442379565322120_n.png?oh=66d30f94535ba4e3c648533345e0cbd6&oe=590388ED"
-
     -   name: Christina Rajczyk Ginnerrup
         title: 1. Dan, Sempai
         description: 
@@ -97,7 +97,6 @@ blackbelts:
         description: 
         avatar: "/user/assets/Lisa2.jpg"
 
-
     -   name: Bo Niels Rosenberg
         title: 1. Dan, Sempai
         description: 
@@ -109,33 +108,31 @@ blackbelts:
         description: 
         avatar: "/user/assets/Maibritt_1.jpg"
 
-
-brownbelts:
     -   name: Theban Aruliah
-        title: 1. Kyu, Sempai
+        title: Junior-Shodan, Sempai
         description: 
         avatar: ""
 
+brownbelts:
     -   name: Lykke Laura Hansen
-        title: 2. Kyu, Sempai
+        title: 1. Kyu, Sempai
         description: 
         avatar: "/user/assets/Lykke_1.jpg"
 
+    -   name: Ulrik Maribo Pedersen
+        title: 2. Kyu, Sempai
+        description: 
+        avatar: ""
+ 
     -   name: Marianne Røgilds-Heinsøe
         title: 3. Kyu, Sempai
         description: 
         avatar: "https://scontent-arn2-1.xx.fbcdn.net/v/t31.0-8/12487205_823988434413677_5925825752270170933_o.jpg?oh=24d0d85392d780079bc8e58947ef89c4&oe=59153E2E"
 
-
-    -   name: Ulrik Maribo Pedersen
+    -   name: Bo Søgaard Larsen
         title: 3. Kyu, Sempai
         description: 
-        avatar: ""
-
-    -   name: Bo Søgaard
-        title: 3. Kyu, Sempai
-        description: 
-        avatar: "/user/assets/Bo_S%C3%B8ndergaard_1.jpg"
+        avatar: "/user/assets/Bo_Sondergaard_1.jpg"
 
     -   name: Miichael Elkjær
         title: 3. Kyu, Sempai
@@ -145,7 +142,7 @@ brownbelts:
     -   name: Jørgen Egløkke
         title: 3. Kyu, Sempai
         description: 
-        avatar: "/user/assets/Jørgen_1.jpg"
+        avatar: "/user/assets/Jorgen_1.jpg"
 
     -   name: Claus William Hansen
         title: 3. Kyu, Sempai

@@ -2,7 +2,7 @@
 /**
  * @package    Grav.Common.Page
  *
- * @copyright  Copyright (C) 2014 - 2016 RocketTheme, LLC. All rights reserved.
+ * @copyright  Copyright (C) 2014 - 2017 RocketTheme, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -72,6 +72,21 @@ class Collection extends Iterator
     public function copy()
     {
         return new static($this->items, $this->params, $this->pages);
+    }
+
+    /**
+     *
+     * Merge another collection with the current collection
+     *
+     * @param Collection $collection
+     * @return $this
+     */
+    public function merge(Collection $collection)
+    {
+        foreach($collection as $page) {
+            $this->addPage($page);
+        }
+        return $this;
     }
 
     /**
@@ -146,7 +161,7 @@ class Collection extends Iterator
      *
      * @param Page|string|null $key
      *
-     * @return $this|void
+     * @return $this
      * @throws \InvalidArgumentException
      */
     public function remove($key = null)

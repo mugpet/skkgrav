@@ -105,10 +105,12 @@ array(
 - Midori
 - Vivaldi
 - TizenBrowser
+- SamsungBrowser
 - UC Browser
 - Lynx
 - Wget
 - Curl
+- Puffin
 
 
 
