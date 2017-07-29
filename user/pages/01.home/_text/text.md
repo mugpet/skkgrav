@@ -22,10 +22,17 @@ I vores dojo (træningssal) har vi bl.a. måtter, træningsudstyr som sandsække
 
 ## Adresse
 <div style="display:flex;flex-direction:row">
-<div style="flex: 1 0 200px">
+<div style="flex: 1 0 260px">
 <strong>Vemmedrup hallen</strong><br>
 Vindegårdsvej 1<br>
-4632 Bjæverskov
+4632 Bjæverskov<br>
+<br>
+Ring eller send email til:<br>
+Mugo Petersen<br>
+Tlf. 31667121<br>
+Email. skovbokarate@gmail.com
+
+
 </div>
 <div style="flex: 1 1 auto;position: relative;width: 80%;height:200px">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2262.092215119687!2d12.0544291!3d55.46105910000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652f259089ed95b%3A0x6dcf7cba727dc141!2sSkovbo+Karate+Klub!5e0!3m2!1sda!2sus!4v1501323649818" frameborder="0" style="border:0;  position: absolute;  top:0;  left: 0;  width: 100%; height: 100%;" allowfullscreen></iframe>
