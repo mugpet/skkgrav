@@ -11,9 +11,22 @@ news:
 
   - label: 
     image: puder.jpg
-    title: Når vi alle er samlet har vi især brug for den store hal, da vi er over 100 aktive karateudøvere.
+    title: Når vi alle er samlet har vi brug for den store hal, da vi er over 100 aktive karateudøvere.
     url: "#"
     tags:
     time: 
+
+  - label: 
+    image: fb.jpg
+    title: Vi er meget aktive på facebook. Klik her for at se de seneste nyheder på vores Facebook side.
+    url: "https://www.facebook.com/SkovboKarate/"
+    tags:
+    time: 
+
+  - label: 
+    image: fb-group.jpg
+    title: Hvis du selv vil bidrage med noget til dine med udøvere kan du skrive i vores Facebook gruppe som er for alle klubbens medlemmer. Her kan du bl.a. stille karate-spørgsmål som helt sikkert kan besvares af et medlem.
+    url: "https://www.facebook.com/groups/skovbokarate/"
+    tags:
 
 ---
