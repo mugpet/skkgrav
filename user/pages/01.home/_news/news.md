@@ -29,4 +29,11 @@ news:
     url: "https://www.facebook.com/groups/skovbokarate/"
     tags:
 
+  - label: 
+    image: begivenheder.jpg
+    title: Se alle kommende aktiviteter her. 
+    url: "https://www.facebook.com/pg/SkovboKarate/events/?ref=page_internal"
+    tags:
+
+
 ---
