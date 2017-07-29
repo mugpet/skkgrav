@@ -1,0 +1,15 @@
+{
+  "name": "skkgrav",
+  "version": "1.0.0",
+  "description": "[![SensioLabsInsight](https://insight.sensiolabs.com/projects/cfd20465-d0f8-4a0a-8444-467f5b5f16ad/mini.png)](https://insight.sensiolabs.com/projects/cfd20465-d0f8-4a0a-8444-467f5b5f16ad) [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/getgrav/grav?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://travis-ci.org/getgrav/grav.svg?branch=develop)](https://travis-ci.org/getgrav/grav)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://skovbokarate.visualstudio.com/DefaultCollection/skovbokarate/_git/SKKGrav"
+  },
+  "author": "",
+  "license": "ISC"
+}

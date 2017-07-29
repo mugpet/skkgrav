@@ -1,110 +1,136 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1487542025,
-    'checksum' => '2f31a6f0326456630f8ac30e45e44a04',
+    'timestamp' => 1496791527,
+    'checksum' => 'ac7eed5195b850939a667bd9a3efece7',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
-                'modified' => 1484896285
+                'modified' => 1496776658
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1484777853
+                'modified' => 1496776658
             ],
             'plugins/login' => [
                 'file' => 'user/config/plugins/login.yaml',
-                'modified' => 1484777853
+                'modified' => 1496776658
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1484896259
+                'modified' => 1496776658
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1485093812
+                'modified' => 1496776658
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
-                'modified' => 1484896285
+                'modified' => 1496776658
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1485109508
+                'modified' => 1496776658
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1484777853
+                'modified' => 1495634414
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1484777853
+                'modified' => 1495634414
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1484777853
+                'modified' => 1495634414
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1484777853
+                'modified' => 1495634414
             ]
         ],
         'user/plugins' => [
-            'plugins/simplesearch' => [
-                'file' => 'user/plugins/simplesearch/simplesearch.yaml',
-                'modified' => 1484777858
-            ],
-            'plugins/problems' => [
-                'file' => 'user/plugins/problems/problems.yaml',
-                'modified' => 1484777857
-            ],
-            'plugins/admin' => [
-                'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1484777855
-            ],
-            'plugins/form' => [
-                'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1484777856
-            ],
-            'plugins/email' => [
-                'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1484777855
-            ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
-                'modified' => 1484777855
+                'modified' => 1496776772
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1484777857
+                'modified' => 1496776777
+            ],
+            'plugins/admin' => [
+                'file' => 'user/plugins/admin/admin.yaml',
+                'modified' => 1496776708
+            ],
+            'plugins/form' => [
+                'file' => 'user/plugins/form/form.yaml',
+                'modified' => 1496776774
+            ],
+            'plugins/email' => [
+                'file' => 'user/plugins/email/email.yaml',
+                'modified' => 1496776752
+            ],
+            'plugins/problems' => [
+                'file' => 'user/plugins/problems/problems.yaml',
+                'modified' => 1496776780
+            ],
+            'plugins/simplesearch' => [
+                'file' => 'user/plugins/simplesearch/simplesearch.yaml',
+                'modified' => 1496776781
             ]
         ]
     ],
     'data' => [
         'plugins' => [
-            'simplesearch' => [
+            'error' => [
                 'enabled' => true,
-                'built_in_css' => true,
-                'display_button' => false,
-                'min_query_length' => 3,
-                'route' => '/search',
-                'template' => 'simplesearch_results',
-                'filters' => [
-                    'category' => 'blog'
-                ],
-                'filter_combinator' => 'and',
-                'ignore_accented_characters' => true,
-                'order' => [
-                    'by' => 'date',
-                    'dir' => 'desc'
+                'routes' => [
+                    404 => '/error'
                 ]
             ],
-            'problems' => [
+            'login' => [
                 'enabled' => true,
-                'built_in_css' => true
+                'built_in_css' => true,
+                'route' => '/user-login',
+                'route_register' => false,
+                'route_activate' => '/activate_user',
+                'route_forgot' => '/forgot_password',
+                'route_reset' => '/reset_password',
+                'redirect_after_login' => NULL,
+                'parent_acl' => false,
+                'protect_protected_page_media' => false,
+                'user_registration' => [
+                    'enabled' => true,
+                    'fields' => [
+                        0 => 'username',
+                        1 => 'password',
+                        2 => 'email',
+                        3 => 'fullname',
+                        4 => 'title'
+                    ],
+                    'access' => [
+                        'site' => [
+                            'login' => 'true'
+                        ]
+                    ],
+                    'options' => [
+                        'validate_password1_and_password2' => true,
+                        'set_user_disabled' => false,
+                        'login_after_registration' => true,
+                        'send_activation_email' => false,
+                        'send_notification_email' => false,
+                        'send_welcome_email' => false
+                    ]
+                ],
+                'rememberme' => [
+                    'enabled' => true,
+                    'timeout' => 604800,
+                    'name' => 'grav-rememberme'
+                ],
+                'redirect' => '/'
             ],
             'admin' => [
                 'enabled' => true,
@@ -194,52 +220,26 @@ return [
                 'content_type' => 'text/html',
                 'debug' => false
             ],
-            'error' => [
+            'problems' => [
                 'enabled' => true,
-                'routes' => [
-                    404 => '/error'
-                ]
+                'built_in_css' => true
             ],
-            'login' => [
+            'simplesearch' => [
                 'enabled' => true,
                 'built_in_css' => true,
-                'route' => '/user-login',
-                'route_register' => false,
-                'route_activate' => '/activate_user',
-                'route_forgot' => '/forgot_password',
-                'route_reset' => '/reset_password',
-                'redirect_after_login' => NULL,
-                'parent_acl' => false,
-                'protect_protected_page_media' => false,
-                'user_registration' => [
-                    'enabled' => true,
-                    'fields' => [
-                        0 => 'username',
-                        1 => 'password',
-                        2 => 'email',
-                        3 => 'fullname',
-                        4 => 'title'
-                    ],
-                    'access' => [
-                        'site' => [
-                            'login' => 'true'
-                        ]
-                    ],
-                    'options' => [
-                        'validate_password1_and_password2' => true,
-                        'set_user_disabled' => false,
-                        'login_after_registration' => true,
-                        'send_activation_email' => false,
-                        'send_notification_email' => false,
-                        'send_welcome_email' => false
-                    ]
+                'display_button' => false,
+                'min_query_length' => 3,
+                'route' => '/search',
+                'template' => 'simplesearch_results',
+                'filters' => [
+                    'category' => 'blog'
                 ],
-                'rememberme' => [
-                    'enabled' => true,
-                    'timeout' => 604800,
-                    'name' => 'grav-rememberme'
-                ],
-                'redirect' => '/'
+                'filter_combinator' => 'and',
+                'ignore_accented_characters' => true,
+                'order' => [
+                    'by' => 'date',
+                    'dir' => 'desc'
+                ]
             ]
         ],
         'media' => [
