@@ -16,7 +16,7 @@ Goju-ryu Karate Do stammer fra Okinawa som er en lille ø der ligger ca. 1500 km
 
 ### Vores dojo
 
-Skovbo Karate holder til i Vemmedrup. Vi træner i salen hvor der er spejle og ophæng til bl.a. sandsække, og i den store hal. Vi har tre karate hold og et konditions hold. Et børnehold hvor man kan træne fra man er 7 år til 10 år, og et ung/voksen hold hvor kan kan træne fra man er 10 år. Det sidste hold er for klubbens instruktører, instruktørassistenter, brun- og sortbælter. Konditions holdet er for dem der ønsker at supplere deres træning med ekstra konditions og fysisk træning. 
+Skovbo Karate holder til i Vemmedrup. Vi træner i salen hvor der er spejle og ophæng til bl.a. sandsække, og i den store hal. Vi har tre karate hold og et konditions hold. Et børnehold hvor man kan træne fra man er 7 år til 10 år, og et ung/voksen hold hvor kan kan træne fra man er 10 år. Vores Ichiban hold er for klubbens instruktører, instruktørassistenter, brun- og sortbælter. Konditions holdet er for dem der ønsker at supplere deres træning med ekstra konditions og fysisk træning. 
 
 I vores dojo (træningssal) har vi bl.a. måtter, træningsudstyr som sandsække, sparke- og slagpuder. 
 
